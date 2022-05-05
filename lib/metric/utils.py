@@ -8,6 +8,7 @@ import logging
 logger = logging.getLogger("model")
 
 
+
 def clean_sentence(sent, remove_unk=False, remove_eos=True, remove_bos=True):
     if lib.constants.EOS_WORD in sent:
         sent = sent[:sent.index(lib.constants.EOS_WORD) + 1]
