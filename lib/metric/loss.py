@@ -3,6 +3,7 @@ import torch.nn.functional as F
 from torch.autograd import Variable
 
 
+
 def weighted_xent_loss(logits, targets, mask, normalize=True):
     logits_flat = logits.contiguous().view(-1, logits.size(-1))
     targets_flat  = targets.contiguous().view(-1,)
