@@ -1,6 +1,7 @@
 import re
 import lib
 
+
 class Tweet(object):
     def __init__(self, input, output, tid, ind, inputidx=None, outputidx=None):
         self.input =  input
