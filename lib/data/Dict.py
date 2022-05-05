@@ -2,6 +2,7 @@ from collections import Counter
 from .constants import *
 import torch
 
+
 class Dict(object):
     def __init__(self, vocab_size, bosWord=None, eosWord=None):
         self.vocab = []
