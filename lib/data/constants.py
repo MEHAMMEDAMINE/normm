@@ -3,6 +3,7 @@ UNK = 1
 BOS = 2
 EOS = 3
 
+
 PAD_WORD = ''
 UNK_WORD = '<unk>'
 BOS_WORD = '<s>'
