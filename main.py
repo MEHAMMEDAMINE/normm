@@ -17,7 +17,7 @@ def train_char_model(args):
     char_evaluator = lib.train.Evaluator(char_model, opt)
     char_test_evaluator = lib.train.Evaluator(char_model, opt)
     logger.info(char_model.opt)
-    logger.info('Loading test data for character model from "%s"' % opt.testdata)
+    logger.info('Loading test data for charactr model from "%s"' % opt.testdata)
     logger.info('Loading training data for character model from "%s"' % opt.traindata)
     logger.info(' * Character model vocabulary size. source = %d; target = %d' % (len(vocab['src']), len(vocab['tgt'])))
     logger.info(' * Character model maximum batch size. %d' % opt.batch_size)
