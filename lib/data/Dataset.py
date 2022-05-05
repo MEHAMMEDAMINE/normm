@@ -2,6 +2,7 @@ from torch.autograd import Variable
 import torch
 import lib
 
+
 class Dataset(object):
     def __init__(self, data, opt):
         self.DATA_KEYS = data.keys()
