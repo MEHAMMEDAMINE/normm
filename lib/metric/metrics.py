@@ -1,7 +1,7 @@
 import lib
 
 
-# Calculate f1 score of a corpus.
+# Calculate f1 score of a corpus
 def f1(inputs, preds, golds, spelling=False):
     assert len(preds) == len(golds) == len(inputs)
     correct_norm, total_norm, total_nsw = 0.0, 0.0, 0.0
