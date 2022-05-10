@@ -5,13 +5,7 @@ where we explore several Seq2Seq variations for normalizing social media text.
 
 If you find this code, models or results useful, please cite us using the following bibTex:
 ```
-@inproceedings{lourentzou2019adapting,
-  title={Adapting Sequence to Sequence models for Text Normalization in Social Media},
-  author={Lourentzou, Ismini and Manghnani, Kabir and Zhai, ChengXiang},
-  booktitle={International Conference on Web and Social Media},
-  year={2019},
-  organization={AAAI}
-}
+
 ```
 
 ### Requirements
