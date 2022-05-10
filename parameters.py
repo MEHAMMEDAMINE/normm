@@ -12,8 +12,8 @@ logger = logging.getLogger("main")
 
 parser = argparse.ArgumentParser(description='train.py')
 ## Data options
-parser.add_argument('-traindata', default='dataset/long.json', help='Path to train data file')
-parser.add_argument('-testdata', default='dataset/haadcomplet3.json',help='Path to the test data file')
+parser.add_argument('-traindata', default='dataset/cairotraining.json', help='Path to train data file')
+parser.add_argument('-testdata', default='dataset/cairotraining.json',help='Path to the test data file')
 parser.add_argument('-valsplit', type=int, default=0,help='Number of examples for validation')
 parser.add_argument('-vocab_size', type=int, default=None, help='Limit vocabulary')
 parser.add_argument('-lowercase', action='store_true', default=False,help='Converting to lowercase')
